@@ -23085,12 +23085,12 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Keyboard,
 	cr.plugins_.Mouse,
-	cr.plugins_.Tilemap,
-	cr.plugins_.Text,
-	cr.plugins_.TiledBg,
+	cr.plugins_.Keyboard,
 	cr.plugins_.Touch,
+	cr.plugins_.Text,
+	cr.plugins_.Tilemap,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
 	cr.behaviors.Platform,
 	cr.behaviors.scrollto,
@@ -23188,3 +23188,4 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.ToggleBoolInstanceVar,
 	cr.plugins_.TiledBg.prototype.cnds.IsBoolInstanceVarSet
 ];};
+
