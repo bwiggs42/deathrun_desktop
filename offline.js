@@ -1,9 +1,9 @@
 ﻿{
-	"version": 1641086871,
+	"version": 1660228656,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
-		"jquery-2.1.1.min.js",
+		"jquery-3.4.1.min.js",
 		"offlineClient.js",
 		"images/backgroundtile.png",
 		"images/playerbox-sheet0.png",
